@@ -7,9 +7,33 @@
 //
 
 #include <iostream>
+#include "rook.h"
+#include "chess_piece.h"
+#include "chess_position.h"
+#include <vector>
+
+bool isStable(vector<ChessPiece> board)
+{
+    return false;
+}
+
+void allMoves(vector<ChessPiece> board)
+{
+    for(vector<ChessPiece>::iterator it=board.begin();
+        it != board.end(); ++it)
+    {
+        vector<ChessPosition> moves = it->allowedMoves();
+        //Check with isStable and print
+    }
+}
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    
+    ChessPosition pos;
+    pos.x = 'A';
+    pos.y = 1;
+    Rook rook(pos);
+    
     std::cout << "Hello, World!\n";
     return 0;
 }

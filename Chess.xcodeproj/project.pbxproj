@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F46203E71B455D84000B567C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46203E61B455D84000B567C /* main.cpp */; };
+		F46203EF1B455DA8000B567C /* chess_position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46203ED1B455DA8000B567C /* chess_position.cpp */; };
+		F46203F21B455DF4000B567C /* chess_piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46203F01B455DF4000B567C /* chess_piece.cpp */; };
+		F46203F51B455F21000B567C /* rook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46203F31B455F21000B567C /* rook.cpp */; };
+		F46203F81B45655C000B567C /* knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F46203F61B45655C000B567C /* knight.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		F46203E31B455D84000B567C /* Chess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chess; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46203E61B455D84000B567C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F46203ED1B455DA8000B567C /* chess_position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chess_position.cpp; sourceTree = "<group>"; };
+		F46203EE1B455DA8000B567C /* chess_position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chess_position.h; sourceTree = "<group>"; };
+		F46203F01B455DF4000B567C /* chess_piece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chess_piece.cpp; sourceTree = "<group>"; };
+		F46203F11B455DF4000B567C /* chess_piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chess_piece.h; sourceTree = "<group>"; };
+		F46203F31B455F21000B567C /* rook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rook.cpp; sourceTree = "<group>"; };
+		F46203F41B455F21000B567C /* rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rook.h; sourceTree = "<group>"; };
+		F46203F61B45655C000B567C /* knight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = knight.cpp; sourceTree = "<group>"; };
+		F46203F71B45655C000B567C /* knight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = knight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				F46203E61B455D84000B567C /* main.cpp */,
+				F46203ED1B455DA8000B567C /* chess_position.cpp */,
+				F46203EE1B455DA8000B567C /* chess_position.h */,
+				F46203F01B455DF4000B567C /* chess_piece.cpp */,
+				F46203F11B455DF4000B567C /* chess_piece.h */,
+				F46203F31B455F21000B567C /* rook.cpp */,
+				F46203F41B455F21000B567C /* rook.h */,
+				F46203F61B45655C000B567C /* knight.cpp */,
+				F46203F71B45655C000B567C /* knight.h */,
 			);
 			path = Chess;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46203F51B455F21000B567C /* rook.cpp in Sources */,
 				F46203E71B455D84000B567C /* main.cpp in Sources */,
+				F46203F21B455DF4000B567C /* chess_piece.cpp in Sources */,
+				F46203EF1B455DA8000B567C /* chess_position.cpp in Sources */,
+				F46203F81B45655C000B567C /* knight.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
